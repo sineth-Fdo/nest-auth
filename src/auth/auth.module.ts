@@ -8,7 +8,8 @@ import { UserSchema } from './schema/user.schema';
   imports: [
     MongooseModule.forFeature([
       { name: 'User',
-        schema: UserSchema }
+        schema: UserSchema 
+      }
     ])
   ],
   controllers: [AuthController],
